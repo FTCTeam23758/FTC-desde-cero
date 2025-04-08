@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# FTC en español
+# Intro
 
-Hecho por el equipo 23758 LamBot, de San Luis Potosí, México.
+FTC desde cero, una guía orientada a equipos nuevos y principiantes de *FIRST Tech Challenge*.
