@@ -85,7 +85,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        //copyright: `Copyright © ${new Date().getFullYear()} FTC desde cero. Hecho con Docusaurus.`,
+        copyright: `FTC desde cero. Hecho con Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
