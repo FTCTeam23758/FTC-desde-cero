@@ -23,7 +23,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'intro',
+      id: 'bienvenida',
       label: 'Bienvenida',
     },
     {
@@ -34,7 +34,7 @@ const sidebars = {
           type: 'category',
           label: 'Primeros pasos',
           items: [
-            'intro-software',
+            'configurar-entorno',
           ],
         },
       ],
@@ -51,6 +51,16 @@ const sidebars = {
           ],
         },
       ],
+    },
+    {
+      type: 'doc',
+      id: 'otros-recursos',
+      label: 'Otros recursos',
+    },
+    {
+      type: 'doc',
+      id: 'contribuir',
+      label: 'Cómo contribuir',
     },
   ],
 };

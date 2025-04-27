@@ -15,15 +15,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://FTCTeam23758.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/FTC-desde-cero/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'FTCTeam23758', // Usually your GitHub org/user name.
+  projectName: 'FTC-desde-cero', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +43,7 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -61,12 +61,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/FTCdc-social-card.jpg',
       navbar: {
         //title: 'FTC desde cero',
         logo: {
           alt: 'Logo',
-          src: 'img/FTCdcSVG.svg',
+          src: 'img/logo-placeholder.svg',
         },
         items: [
           //{
@@ -77,7 +77,7 @@ const config = {
           //},
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/alfonsodeanda/ftc-docs',
+            href: 'https://github.com/FTCTeam23758/ftc-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -86,7 +86,7 @@ const config = {
       footer: {
         style: 'dark',
         //copyright: `Copyright © ${new Date().getFullYear()} FTC desde cero. Hecho con Docusaurus.`,
-        copyright: `FTC desde cero. Hecho con Docusaurus.`,
+        copyright: `@FTC desde cero ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,
