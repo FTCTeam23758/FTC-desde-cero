@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkftc=self.webpackChunkftc||[]).push([[634],{9179:(e,t,n)=>{n.r(t),n.d(t,{default:()=>r});var u=n(9030),c=(n(6540),n(6347)),f=n(4848);function r(){return(0,f.jsx)(c.rd,{to:(0,u.Ay)("/bienvenida")})}}}]);

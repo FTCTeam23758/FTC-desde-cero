@@ -1,1 +1,0 @@
-(self.webpackChunkftc=self.webpackChunkftc||[]).push([[634],{8748:(t,e,r)=>{"use strict";r.d(e,{rd:()=>c.rd});var c=r(6347)},9179:(t,e,r)=>{const c=r(6540),n=r(8748).rd;t.exports=function(){return c.createElement(n,{to:"/intro"})}}}]);
